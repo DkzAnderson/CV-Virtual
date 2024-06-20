@@ -31,6 +31,7 @@ main .btn-2 {
   font-size: 2.5rem;
   margin-bottom: 40px;
   color: white;
+  text-decoration: none;
   border: 1px solid white;
   border-radius: 999px;
   background-color: #1fa848;
@@ -228,14 +229,16 @@ main {
   }
   main .btn-1 {
     position: absolute;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 8px;
     top: 3%;
     right: 3%;
     z-index: 50;
-    width: 50px;
-    height: 50px;
-    border: 1px solid transparent;
+    border: 2px solid black;
     border-radius: 50%;
-    padding: 8px;
+    color: black;
     cursor: pointer;
   }
   main .btn-2 {
